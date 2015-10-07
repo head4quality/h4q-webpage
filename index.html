@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>H4Q</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/responsiveSlider.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->    
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>   
+  </head>
+  <body>  
+ 
+<!-- Responsive slider -->
+
+
+<div atd-slideshow-pagination="#your-slideshow"></div>
+<ul id="another-slideshow" atd-slideshow>
+  <li class="thirds">
+	<figure><!-- Imagenes del slider -->  
+  		<img src="/home/andrelo/Escritorio/H4QPage/Image/h4qlogo.jpg" alt="">     
+  	</figure>
+  </li>
+  <li class="thirds">
+    <figure><!-- Imagenes del slider -->  
+  		<img src="/home/andrelo/Escritorio/H4QPage/Image/qa-banner.jpg" alt="">     
+  	</figure>
+  </li>
+  <li class="thirds">
+   <figure><!-- Imagenes del slider -->  
+  		<img src="/home/andrelo/Escritorio/H4QPage/Image/chemistry_logo.png" alt="">     
+  	</figure> 
+  </li>  
+</ul>
+<div atd-slideshow-pagination="#another-slideshow"></div>
+	<!-- Responsive slider -->
+    <!-- NAV BAR -->
+		<div  
+			<!-- NAV LINKS (MENU) -->
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		  		<ul id="onepage-nav" class="nav navbar-nav">
+				<li><a href="#slides">Inicio</a></li>
+				<li><a href="#onepage-servicio">Servicio</a></li>
+				<li><a href="#onepage-secciones">Quienes somos</a></li>			
+				<li><a href="#onepage-adv-script">Contacto</a></li>
+		  		</ul>
+		</div><!-- /.navbar-collapse -->
+	 
+	<!-- /jQUERY NAV BAR -->   
+	  
+	  <div class="row">
+        <div id="onepage-servicio" class="section">
+			<h2>Que hacemos</h2>
+			<hr>
+			<p>CEO</p>
+			<blockquote>
+			<p>
+			&nbsp;&nbsp;&nbsp; <span class="html-code">&lt;&gt;</span> <br/>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="html-code">&lt;li&gt;</span><br/>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="html-code">&lt;a href='#apartado-a'&gt;</span>Apartado A<span class="html-code">&lt;/a&gt;</span><br/>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="html-code">&lt;/li&gt;</span> <br/><br/>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="html-code">&lt;li&gt;</span><br/>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="html-code">&lt;a href='#apartado-b'&gt;</span>Apartado B<span class="html-code">&lt;/a&gt;</span><br/>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="html-code">&lt;/li&gt;</span> <br/><br/>
+			
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="html-code">&lt;li&gt;</span><br/>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="html-code">&lt;a href='#apartado-c'&gt;</span>Apartado C<span class="html-code">&lt;/a&gt;</span><br/>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="html-code">&lt;/li&gt; </span><br/>
+			&nbsp;&nbsp;&nbsp; <span class="html-code">&lt;/ul&gt;</span>
+			</p>
+			</blockquote>
+        </div>
+      </div>
+	  
+	  <div class="row">
+        <div id="onepage-secciones" class="section">
+			<h2>Quienes somos</h2>
+			<hr>
+			<p>Para las secciones definiremos la siguiente estructura:</p>
+			<blockquote>
+			<p>
+			&nbsp;&nbsp;&nbsp; <span class="html-code">&lt;div class='section' id='apartado-a'&gt;</span> <br/>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; // Contenido de la sección A<br/>
+			&nbsp;&nbsp;&nbsp; <span class="html-code">&lt;/div&gt;</span><br/><br/>
+			
+			&nbsp;&nbsp;&nbsp; <span class="html-code">&lt;div class='section' id='apartado-b'&gt;</span> <br/>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; // Contenido de la sección B<br/>
+			&nbsp;&nbsp;&nbsp; <span class="html-code">&lt;/div&gt;</span><br/><br/>
+			
+			&nbsp;&nbsp;&nbsp; <span class="html-code">&lt;div class='section' id='apartado-c'&gt;</span> <br/>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; // Contenido de la sección C<br/>
+			&nbsp;&nbsp;&nbsp; <span class="html-code">&lt;/div&gt;</span>
+			</p>
+			</blockquote>
+			<p>Es importante que el atributo 'id' de cada sección coincida con el que hemos puesto en los enlaces del menú.</p>
+        </div>
+      </div>	  
+	  
+	  <div class="row">
+        <div id="onepage-adv-script" class="section">
+			<h2>Contacto</h2>
+			<hr>
+			<p>Si necesitamos personalizar el funcionamiento del plugin, podemos pasarle parámetros a la función:</p>
+			<blockquote>
+			<p>
+			&nbsp;&nbsp;&nbsp; $(document).ready(function() {<br/>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; $('#nav').onePageNav({<br/>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; nombre_parámetro: valor_entero ,<br/>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; nombre_parámetro: 'valor_string' ,<br/>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ...<br/>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; nombre_parámetro: valor<br/>
+			&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; });<br/>
+			&nbsp;&nbsp;&nbsp; });
+			</p>
+			</blockquote>
+			<p>Todos los parámetros están explicados en el post.</p>
+        </div>
+      </div>
+    </div>
+    <!-- /MAIN CONTENT -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+	<script src="js/jquery.nav.js"></script>
+	<script src="js/functions.js"></script>
+	<script src="js/slider.js"></script>
+
+  </body>
+</html>
