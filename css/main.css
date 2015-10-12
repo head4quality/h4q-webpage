@@ -8,9 +8,9 @@ nav .link-post {padding-top: 5px}               /*h4q*/
 #onepage-nav li a {font-size:17px; color:#FC2700} /* Color de las historias del menu*/
 #onepage-nav li a:hover, #onepage-nav li.active a, #onepage-nav li.current a {background:#F0F5FA}/* Color del slider del menu*/
 
-#onepage-servicio {background: #FF6F00}
+#onepage-servicio {background: #FF4900}
 #onepage-secciones {background: #000000}		/* Color de las secciones*/
-#onepage-adv-script {background: #FF6F00}
+#onepage-adv-script {background: #FF4900}
 
 .container .section {padding:100px 60px; border-top:0px solid #fff}
 .container .section p {font-size:30px; color:#FFF;}
