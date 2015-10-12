@@ -55,8 +55,8 @@ body {
 }
 
 .name {
-  background-color: #DE0202;
-  border-bottom: 5px solid #DE0202;
+  background-color: #9E0400;
+  border-bottom: 5px solid #9E0400;
 }
 
 .name:hover {
@@ -82,8 +82,8 @@ body {
 }
 
 .message {
-  background-color: #FFB400;
-  border-bottom: 5px solid #FFB400;
+  background-color: #005300;
+  border-bottom: 5px solid #005300;
   overflow: hidden;
   height: 50px;
 }
@@ -97,9 +97,9 @@ body {
 .submit {
   border-radius: 5px;
   padding: 10px;
-  background-color: #FFB400;
+  background-color: #005300;
   border: none;
-  border-bottom: 5px solid #FFB400;
+  border-bottom: 5px solid #005300;
   -webkit-transition: all 0.5s ease 0s;
   -moz-transition: all 0.5s ease 0s;
   transition: all 0.5s ease 0s;
