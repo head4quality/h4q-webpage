@@ -17,36 +17,12 @@
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->    
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>   
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
   </head>
   <body style="background:#5E5857">  
  
-<!-- Responsive slider -->
-
-
-<div atd-slideshow-pagination="#your-slideshow"></div>
-<ul id="another-slideshow" atd-slideshow>
-  <li class="thirds">
-	<figure><!-- Imagenes del slider -->  
-  		<img src="/home/andrelo/Escritorio/H4QPage/Image/h4qlogo.jpg" alt="">     
-  	</figure>
-  </li>
-  <li class="thirds">
-    <figure><!-- Imagenes del slider -->  
-  		<img src="/home/andrelo/Escritorio/H4QPage/Image/qa-banner.jpg" alt="">     
-  	</figure>
-  </li>
-  <li class="thirds">
-   <figure><!-- Imagenes del slider -->  
-  		<img src="/home/andrelo/Escritorio/H4QPage/Image/chemistry_logo.png" alt="">     
-  	</figure> 
-  </li>  
-</ul>
-<div atd-slideshow-pagination="#another-slideshow"></div>
-	<!-- Responsive slider -->
-
-    <!-- JQUERY NAV BAR -->
-	<div id="container-nav-div" class="container col-xs-12 container-nav">
+          <!-- JQUERY NAV BAR -->
+	<div id="container-nav-div" class="container container-nav">
       <nav class="navbar navbar-default menu-onepage" role="navigation">
 	  <div class="container-fluid">
 		<!-- Brand and toggle get grouped for better mobile display -->
@@ -72,6 +48,33 @@
 	</nav>
 	</div>
 	<!-- /jQUERY NAV BAR -->   
+<!-- Responsive slider -->
+
+      <div class="row">
+      <div atd-slideshow-pagination="#your-slideshow" class="section"></div>
+<ul id="another-slideshow" atd-slideshow>
+  <li class="thirds">
+	<figure><!-- Imagenes del slider -->  
+  		<img src="Image/h4qlogo.jpg" alt="">     
+  	</figure>
+  </li>
+  <li class="thirds">
+    <figure><!-- Imagenes del slider -->  
+  		<img src="Image/qa-banner.jpg" alt="">     
+  	</figure>
+  </li>
+  <li class="thirds">
+   <figure><!-- Imagenes del slider -->  
+  		<img src="Image/chemistry_logo.png" alt="">     
+  	</figure> 
+  </li>  
+</ul>
+<div atd-slideshow-pagination="#another-slideshow"></div>
+      </div>
+
+	<!-- Responsive slider -->
+
+
 	  
 	  <div class="row" style="background:#FF7600">
         <div id="onepage-servicio" class="section">		
@@ -162,8 +165,12 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
 	<script src="js/jquery.nav.js"></script>
-	<script src="js/functions.js"></script>
 	<script src="js/slider.js"></script>
-
+    <script>
+        $(document).ready(function(){ 
+            $('.row').css('height', window.innerHeight)
+        });
+    </script>
+    <script src="js/functions.js"></script>
   </body>
 </html>
