@@ -9,11 +9,13 @@
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Custom CSS -->
+    <link href='http://fonts.googleapis.com/css?family=Noto+Sans:700' rel='stylesheet' type='text/css'>
     <link href="css/main.css" rel="stylesheet">
     <link href="css/contacto.css" rel="stylesheet">
     <link href="css/imageAndDescription.css" rel="stylesheet">
     <link href="css/nosotros.css" rel="stylesheet">
     <link href="css/responsiveSlider.css" rel="stylesheet">
+    <link href="css/botonesLinkedin.css" rel="stylesheet">
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->    
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
@@ -40,8 +42,9 @@
 		  <ul id="onepage-nav" class="nav navbar-nav">
 			<li><a href="#another-slideshow">Inicio</a></li>
 			<li><a href="#onepage-servicio">Servicios</a></li>
-			<li><a href="#onepage-secciones">Quienes somos</a></li>			
-			<li><a href="#onepage-adv-script">Contacto</a></li>
+			<li><a href="#onepage-porqueNosotros">Porque nosotros</a></li>
+			<li><a href="#onepage-nosotros">Quienes somos</a></li>				
+			<li><a href="#onepage-contact-area">Contacto</a></li>
 		  </ul>
 		</div><!-- /.navbar-collapse -->
 	  </div><!-- /.container-fluid -->
@@ -74,8 +77,6 @@
 
 	<!-- Responsive slider -->
 
-
-	  
 	  <div class="row" style="background:#FF7600">
         <div id="onepage-servicio" class="section">		
 			<blockquote>
@@ -100,64 +101,78 @@
 		  <a target="_blank" href=""><img src="http://tympanus.net/Development/BookBlock/images/demo1/3.jpg" alt="Klematis" width="110" height="90"/></a>
 		 <div class="desc">Celula de calidad</div>
 		</div>
-		
+				<!-- /Imagenes y descripcion -->
         </div>
       </div>
+      			<!-- porque nosotros -->
+    <div class="row" style="background:#5E5857">
+        <div id="onepage-porqueNosotros" class="section">			
+			<blockquote>
+				<p>
+					<font color="#FF7600" size="5">CSi necesitamos personalizar el funcionamiento del plugin, podemos pasarle parámetros a la función</font>
+				</p>		
+			</blockquote>
+        </div>
+    </div>
+      			<!-- porque nosotros -->
+
 	 		<!-- /Imagenes y descripcion -->  
-	  <div class="row" style="background:#5E5857">
-        <div id="onepage-secciones" class="section">				
+	  <div class="row" style="background:#FF7600">
+        <div id="onepage-nosotros" class="section" style="background:#FF7600">				
 			<blockquote>
 				<p>
 					<font color="#FF7600" size="5">H4Q, es una empresa dedicada a buscar la mejor calidad de tu producto.</font>
 				</p>
+				<div id="profile-container" style="background:#FF7600">
+			<figure>
+		 		<div class="andres"></div>
+					<figcaption>Andres Vaninetti</figcaption>
+					<br>					
+					&nbsp;&nbsp;&nbsp;&nbsp;<a rel="nofollow" class="share-me linkedin" href="https://www.linkedin.com/profile/view?id=AAMAAAwDtjAB7iRbzfldgd3pjpn_vr45WaEoT9k&trk=hp-identity-name" target="_blank">LinkedIn</a>	
+			</figure>					
+		    <figure>
+		 		<div class="goico"></div>
+					<figcaption>Andres Garcia Goicoechea</figcaption>
+					<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a rel="nofollow" class="share-me linkedin" href="#" target="_blank">LinkedIn</a>
+			</figure>		  
+		  	<figure>
+		  		<div class="gonza"></div>
+					<figcaption>Gonzalo Martinez</figcaption>
+					<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a rel="nofollow" class="share-me linkedin" href="#" target="_blank">LinkedIn</a>
+			</figure>
+			<figure>
+		  		<div class="pela"></div>
+					<figcaption>Christian Nagy</figcaption>
+					<br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a rel="nofollow" class="share-me linkedin" href="#" target="_blank">LinkedIn</a>
+			</figure>
+		</div>
 			</blockquote>			
         </div>
       </div>	  
-	  		<!-- /Imagenes y descripcion --> 
-
-	  		<!-- Contacto --> 
-	  <div class="row" style="background:#FF7600">
-        <div id="onepage-adv-script" class="section">			
-			<blockquote>
-				<p>
-					<font color="#5E5857" size="5">CSi necesitamos personalizar el funcionamiento del plugin, podemos pasarle parámetros a la función</font>
-				</p>
-		<div id="profile-container">
-			<figure>
-		 		<div class="anna"></div>
-					<figcaption>Andres Vaninetti</figcaption>
-			</figure>
-		    <figure>
-		 		<div class="frederick"></div>
-					<figcaption>Andres Garcia Goicoechea</figcaption>
-			</figure>		  
-		  	<figure>
-		  		<div class="sophie"></div>
-					<figcaption>Gonzalo Martinez</figcaption>
-			</figure>
-			<figure>
-		  		<div class="sophie"></div>
-					<figcaption>Christian Nagy</figcaption>
-			</figure>
-		</div>
-			</blockquote>
-        </div>
-      </div>
-     	<!-- Contacto --> 
-
-      <div class="wrapper">
-    <div class="title">
-      Contactanos
-    </div>
-    <form class="form" method="POST" action="mailto:andrelovaninetti@gmail.com">
-      <input type="text" class="name field-in font" placeholder="Nombre y Apellido"/>      
-      <input type="text" class="email field-in font" placeholder="E-mail"/>      
-      <textarea class="message field-in font" placeholder="Mensaje"></textarea>       
-      <button class="submit font" href="#">Enviar</button>
-    </form>  	
-    <div class="shadow"></div>
-  </div>
-
+	  		<!-- /Imagenes y descripcion --> 	  	
+	 
+     	<!-- Contacto -->      
+    <div id="container">
+   		<div id="demo"> 
+  			<p class="padabove">CONTACTO</p>  			 		
+ 	 	</div>     
+  	<div id="contact-wrap">   
+		<div id="contact-area">			
+			<form method="post" action="contactengine.php">        
+				<input type="text" name="Name" id="Name" placeholder="Nombre y Apellido" />				
+				<input type="text" name="City" id="City" placeholder="Ciudad"/>	
+				<input type="text" name="Email" id="Email" placeholder="E-mail"/>
+				<input type="text" name="Phone" id="Phone" placeholder="Telefono"/>				
+				<textarea name="Message" rows="20" cols="20" id="Message" placeholder="Mensaje"></textarea>
+				<input type="submit" name="submit" value="Submit" class="submit-button"/>
+			</form>
+	       </div>
+	    </div>
+    </div>   
+ 		<!-- Contacto --> 
     </div>
     <!-- /MAIN CONTENT -->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
@@ -169,6 +184,11 @@
     <script>
         $(document).ready(function(){ 
             $('.row').css('height', window.innerHeight)
+        });
+    </script>
+    <script>
+        $(document).ready(function(){ 
+            $('.padabove').css('height', window.innerHeight)
         });
     </script>
     <script src="js/functions.js"></script>

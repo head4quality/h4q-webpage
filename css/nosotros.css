@@ -20,23 +20,23 @@ div#profile-container figcaption {
   margin-top: 1rem;
   text-align: center; 
 }
-.anna {
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/profile1.jpg) no-repeat center 
+.andres {
+  background: url(/home/andrelo/repoPage/h4q-webpage/Image/Andrelo.png) no-repeat center 
     hsl(200,50%,50%);
   background-size: cover;
 }
-.frederick { 
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/profile2.jpg) no-repeat center 
+.goico { 
+  background: url(/home/andrelo/repoPage/h4q-webpage/Image/goico.png) no-repeat center 
     hsl(200,50%,50%); 
   background-size: cover;
 }
-.sophie { 
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/profile3.jpg) no-repeat center 
+.gonza { 
+  background: url(/home/andrelo/repoPage/h4q-webpage/Image/gonza.png) no-repeat center 
     hsl(200,50%,50%); 
   background-size: cover;
 }
-.sophie { 
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/profile3.jpg) no-repeat center 
+.pela { 
+  background: url(/home/andrelo/repoPage/h4q-webpage/Image/pela.png) no-repeat center 
     hsl(200,50%,50%); 
   background-size: cover;
 }

@@ -1,0 +1,15 @@
+.share-me {
+  padding: 5px 10px;
+  color: white;
+  font-family: 'Noto Sans', sans-serif;
+  text-decoration: none;
+  margin-right: 0px;
+  text-align:center;  
+}
+
+.linkedin {
+  background-color: #007BB6;
+}
+.linkedin:hover {
+  background-color: white;
+}

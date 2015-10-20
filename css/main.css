@@ -9,8 +9,10 @@ nav .link-post {padding-top: 5px}               /*h4q*/
 #onepage-nav li a:hover, #onepage-nav li.active a, #onepage-nav li.current a {background:#F0F5FA}/* Color del slider del menu*/
 
 #onepage-servicio {background: #FF7600}
-#onepage-secciones {background: #5E5857}		/* Color de las secciones*/
-#onepage-adv-script {background: #FF7600}
+#onepage-nosotros {background: #5E5857}		/* Color de las secciones*/
+#onepage-porqueNosotros {background: #5E5857}
+#onepage-contact-area {background: #5E5857}
+
 
 .container .section {padding:100px 60px; border-top:0px solid #fff}
 .container .section p {font-size:30px; color:#FC2700;}
